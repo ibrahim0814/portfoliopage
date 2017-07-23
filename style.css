@@ -1,0 +1,191 @@
+body {
+}
+
+.navFont {
+  font-family: 'Caveat', cursive;
+  font-size: 155%;
+}
+
+#nav {
+  text-align: center;
+}
+#nav li {
+  display: inline;
+}
+#nav a {
+  text-decoration: none;
+  /* variable width */
+}
+
+.menu {
+  border-radius: 0;
+}
+
+.pageOne {
+  font-family: 'Bitter', serif;
+  text-align: center;
+  padding: 0px 20px 0px 20px;
+}
+
+h1 {
+  display: table;
+  white-space: nowrap;
+  width: 100%;
+}
+
+h1 {
+  position: relative;
+  text-align: center;
+}
+
+h1 span {
+  background: #fff;
+  padding: 0 15px;
+  position: relative;
+  z-index: 1;
+}
+
+h1:before {
+  background: #ddd;
+  content: "";
+  display: block;
+  height: 1px;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+}
+
+h1:before {
+  left: 0;
+}
+
+@media only screen and (max-width: 698px) {
+  h1 {
+    font-size: 200%;
+  }
+
+  h3 {
+    font-size: 100%;
+  }
+}
+
+body {
+  background-color: #f6f6f6;
+  padding: 5% 15% 5% 15%;
+}
+
+.backY {
+  background-color: #f6f6f6;
+}
+
+hr {
+  color: #a8a8a8;
+  background: #a8a8a8;
+  width: 100%;
+  height: 1px;
+}
+
+.section1 {
+  font-family: 'Bitter', serif;
+  text-align: center;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+.section1Head {
+  font-size: 160%;
+}
+
+.imageStyle {
+  width: 42%;
+  border-color: #bdbdbd;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 100%;
+}
+
+.left {
+  float: left;
+}
+
+.fontFam {
+  font-family: 'Bitter', serif;
+
+}
+
+.butPad{
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+.linkedIn{
+
+  background-color: #0077B5;
+  color: white;
+}
+
+.codePen{
+
+  background-color: #939393;
+    color: white;
+}
+
+.email{
+
+  background-color: #b20000;
+
+  color: white;
+}
+
+.pad{
+
+  padding-top: 10px;
+}
+
+.pad2{
+
+  padding-top: 5px;
+}
+
+.pad3{
+  padding-top: 2px;
+
+}
+
+.portfolioDescrip{
+
+  background-color: #d3d3d3;
+  padding: 10px 10px 0px 10px;
+  text-align: center;
+}
+
+.descripBody{
+
+  text-align: center;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 95%;
+}
+
+.padBot{
+
+  padding-bottom: 7px;
+}
+
+.padBot2{
+
+  padding-bottom: 15px;
+}
+
+.pad4{
+
+  padding-top: 10px;
+
+}
+
+.pad5{
+
+  padding-top: 15px;
+}

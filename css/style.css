@@ -194,7 +194,7 @@ hr {
   padding-top: 15px;
 }
 
-@media only screen and (max-width: 40em) {
+@media only screen and (max-width: 30em) {
 
   .column, .columns {
     padding-left: 50 rem;

@@ -1,8 +1,5 @@
 
-.padDivv{
 
-  margin: 5% 15% 5% 15%;
-}
 
 .navFont {
   font-family: 'Caveat', cursive;
@@ -194,12 +191,5 @@ hr {
   padding-top: 15px;
 }
 
-@media only screen and (max-width: 40 em) {
 
-  .column, .columns {
-    padding-left: 50 rem;
-    padding-right: 50 rem;
-
-  }
-}
 

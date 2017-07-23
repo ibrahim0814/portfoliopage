@@ -59,13 +59,21 @@ h1:before {
   h3 {
     font-size: 100%;
   }
+
+  body {
+
+    padding-top: 90px;
+  }
 }
 
 body {
   background-color: #f6f6f6;
   margin: 5% 15% 5% 15%;
 
+
 }
+
+
 
 .backY {
   background-color: #f6f6f6;
@@ -195,4 +203,16 @@ hr {
 .navbar .nav, .navbar .nav > li {
     float:none;
     display:inline-block;
+}
+
+.navbarPadding{
+
+  padding-left: 15px;
+  padding-right: 15px;
+
+}
+
+.navbar-inner {
+    border-radius: 0;
+    margin: -20px 0;
 }

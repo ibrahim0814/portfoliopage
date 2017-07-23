@@ -36,15 +36,15 @@
       <div class="text-center ">
           <nav class="navbar navbar-fixed-top navbar-inverse navbarPadding" role="navigation">
             <ul class="nav navbar-nav">
-                <li class="navFont"><a href="#ibrahim"><strong>Ibrahim</strong></a>
+                <li class="navFont"><a href="#ibrahim"><strong>Ibrahim<span class="sr-only">(current)</span></strong></a>
                 </li>
-                <li><a href="#aboutMe">About Me</a>
+                <li><a href="#aboutMe" >About Me</a>
                 </li>
                 <li><a href="#experience">Experience</a>
                 </li>
                 <li><a href="#portfolio">Portfolio</a>
                 </li>
-                <li><a href="#education">Education</a></li>
+                <li><a href="#education" smooth-scroll>Education</a></li>
               </ul>
             </div>
       </div>
@@ -215,6 +215,29 @@
 
         </div>
       </div>
+
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script>
+
+        $(document).ready(function(){
+          jQuery('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+
+              var target = jQuery(this.hash);
+              target = target.length ? target : jQuery('[name=' + this.hash.slice(1) +']');
+              if (target.length) {
+                jQuery('html,body').animate({
+                  scrollTop: target.offset().top -100
+                }, 1000);
+                return false;
+              }
+            }
+          });
+      });
+
+
+    </script>
 
 </body>
 </html>

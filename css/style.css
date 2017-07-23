@@ -197,8 +197,8 @@ hr {
 @media only screen and (max-width: 50em) {
 
   .column, .columns {
-    padding-left: 50 rem;
-    padding-right: 50 rem;
+    padding-left: 50 em;
+    padding-right: 50 em;
 
   }
 }

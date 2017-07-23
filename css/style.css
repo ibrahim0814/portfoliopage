@@ -74,7 +74,7 @@ h1:before {
 
 body {
   background-color: #f6f6f6;
-  margin: 5% 5% 5% 5%;
+  margin: 5% 15% 5% 15%;
   
 }
 
@@ -194,11 +194,4 @@ hr {
   padding-top: 15px;
 }
 
-@media only screen and (max-width: 500 px) {
 
-  .column, .columns {
-    padding-left: 50 px;
-    padding-right: 50 px;
-
-  }
-}

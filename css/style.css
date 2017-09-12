@@ -3,9 +3,14 @@
 
 .navFont {
   font-family: 'Caveat', cursive;
-  font-size: 155%;
+  font-size: 180%;
 }
 
+.navIconPad{
+
+  padding-right: 15px;
+  font-size: 15px;
+}
 
 
 
@@ -53,24 +58,46 @@ h1:before {
 
 body {
   background-color: #f6f6f6;
-  margin: 5% 15% 5% 15%;
+
   padding-top: 15px;
+
+  margin-bottom: 25px;
+  margin-top: 50px;
+
 
 
 }
+
+.attributes{
+
+  padding-top: 10px;
+}
+
+
 
 @media only screen and (max-width: 698px) {
   h1 {
     font-size: 200%;
   }
 
-  h3 {
+  .attributes {
+    font-size: 10.4px;
+
+  }
+
+  h3{
+
     font-size: 100%;
+  }
+
+  h4{
+
+    font-size: 17px;
   }
 
   body {
 
-    padding-top: 90px;
+
   }
 }
 
@@ -129,6 +156,20 @@ hr {
 .linkedIn{
 
   background-color: #0077B5;
+  color: white;
+}
+
+
+.github{
+
+  background-color: gray;
+  color: white;
+
+}
+
+.resume{
+
+  background-color: #ffb732;
   color: white;
 }
 
@@ -202,23 +243,4 @@ hr {
   border-color: #f6f6f6;
   border-width: 4px;
   border-style: solid;
-}
-
-
-
-.navbar .nav, .navbar .nav > li {
-    float:none;
-    display:inline-block;
-}
-
-.navbarPadding{
-
-  padding-left: 15px;
-  padding-right: 15px;
-
-}
-
-.navbar-inner {
-    border-radius: 0;
-    margin: -20px 0;
 }

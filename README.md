@@ -11,4 +11,4 @@ This website is built and run on the following technologies:
 - GitHub pages (hosting)
 
 View the final version at 
-www.ibrahimamanali.me
+www.ibrahimali.co
